@@ -33,7 +33,7 @@ using namespace std;
 int max(vector<int> data)
 {
 	int xmax = data[0];
-	for (int i = 1; i < sizeof(data); i++)
+	for (int i = 1; i < data.size(); i++)
 	{
 		if (data[i] > xmax)
 		{
