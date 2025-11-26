@@ -302,7 +302,7 @@ void AsciiPlotter::show()
 			}
 			else
 			{
-
+				cout << lmargin << "|";
 			}
 		}
 		else
